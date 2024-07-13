@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "1lou download helper",
+    "description": "1lou download helper.",
+    "homepage_url": "https://github.com/op351/1lou",
+    "version": "2.1",
+    "icons": {
+        "48": "icons/icon.png",
+        "96": "icons/icon@2x.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.1lou.me/*",
+                "*://*.1lou.cc/*",
+                "*://*.1lou.info/*",
+                "*://*.1lou.vip/*",
+                "*://*.1lou.xyz/*"
+            ],
+            "js": [
+                "./filesaver.js",
+                "./jszip.js",
+                "./download.js",
+                "./jquery-3.7.1.slim.min.js",
+                "./mainPage.js"
+            ],
+            "css": [
+                "./css/1lou.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "<all_urls>"
+    ]
+}
