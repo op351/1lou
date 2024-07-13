@@ -3,7 +3,7 @@
     "name": "1lou download helper",
     "description": "1lou download helper.",
     "homepage_url": "https://github.com/op351/1lou",
-    "version": "2.1",
+    "version": "2.2",
     "icons": {
         "48": "icons/icon.png",
         "96": "icons/icon@2x.png"
