@@ -30,6 +30,10 @@
         }
     ],
     "permissions": [
-        "<all_urls>"
+        "*://*.1lou.me/*",
+        "*://*.1lou.cc/*",
+        "*://*.1lou.info/*",
+        "*://*.1lou.vip/*",
+        "*://*.1lou.xyz/*"
     ]
 }
